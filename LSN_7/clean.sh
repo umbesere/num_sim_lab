@@ -1,0 +1,10 @@
+rm -rf *gofr*
+rm -rf output.gave.0
+rm -rf *epot*
+rm -rf *pres*
+rm -rf frames/*.xyz
+rm -rf seed.out
+rm -rf config.final
+rm -rf instames.txt
+cp config.fcc config.0
+cp input.$1 input.dat
